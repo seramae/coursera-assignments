@@ -1,0 +1,132 @@
+*{
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+}
+
+body{
+  font-family: Cambria, Times New Roman, serif;  
+}
+
+.row{
+  width: 100%;
+}
+
+.menu-title{
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 50px;
+}
+
+.box{
+ position: relative;
+ top:60px;
+ margin: 15px; 
+}
+
+.menuitem{
+  position: relative;
+  top: 0;
+  background-color:#c2c8d1;
+  margin: 15px;
+  padding: 20px;
+  padding-bottom: 15px;
+  border: 1px solid #000000;
+}
+
+.menuitem p{
+  margin-top: 25px;
+  text-align: justify;
+  font-size:105%;
+}
+
+.menuitem-name{
+  top:0;
+  right: 0px;
+  position: absolute;
+  padding: 6px 90px;
+  border-left: 1px solid #000000;
+  border-bottom: 1px solid #000000;
+  font-size: 120%;
+}
+
+#name1 {
+  background-color: #b6eefc;
+} 
+
+#name2{
+  background-color: #3a5387;
+  color: #ffffff;
+}
+
+#name3{
+  background-color: #d1ffdd;
+}
+
+/* Simple Responsive Framework. */
+/*------ Large Devices ------*/
+@media (min-width: 992px){
+  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+    float: left;  
+  }
+  .col-lg-1 {
+    width: 8.33%;
+  }
+  .col-lg-2 {
+    width: 16.66%;
+  }
+  .col-lg-3 {
+    width: 25%;
+  }
+  .col-lg-4 {
+    width: 33.33%;
+  }
+  .col-lg-5 {
+    width: 41.66%;
+  }
+  .col-lg-6 {
+    width: 50%;
+  }
+  .col-lg-7 {
+    width: 58.33%;
+  }
+  .col-lg-8 {
+    width: 66.66%;
+  }
+  .col-lg-9 {
+    width: 74.99%;
+  }
+  .col-lg-10 {
+    width: 83.33%;
+  }
+  .col-lg-11 {
+    width: 91.66%;
+  }
+  .col-lg-12 {
+    width: 100%;
+  }
+
+}
+
+
+/*------ Medium Devices ------*/
+@media (min-width: 768px) and (max-width: 991px){
+  .col-lg-4 {
+    width: 50%;
+    float: left;
+  }
+  .col-lg-tablet{
+   width: 100%;
+   float: left;
+ }
+}
+
+
+/*------ Small Devices ------*/
+@media (max-width: 767px){
+  .col-lg-4{
+    width: 100%;
+    float: left;
+  }
+}
